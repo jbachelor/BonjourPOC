@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+	xmlns     ="http://xamarin.com/schemas/2014/forms"
+	xmlns:x    ="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:ZeroConfTest"
+	x:Class    ="ZeroConfTest.ZeroConfTestPage">
+	<StackLayout
+		VerticalOptions="Center">
+		<Button
+			x:Name ="findPrintersProtocolOnly"
+			Clicked="OnFindPrintersProtocolOnly"
+			Text   ="Find Printers - Protocol Only" />
+		<Button
+			x:Name ="findPrinters"
+			Clicked="OnFindPrinters"
+			Text   ="Find Printers" />
+		<Button
+			x:Name ="browseAll"
+			Clicked="OnBrowseAll"
+			Text   ="Browse All" />
+		<Button
+			x:Name ="dummyCheck"
+			Clicked="OnDummyServiceCheck"
+			Text   ="Dummy Check" />
+		<Button
+			x:Name ="discoverStuff"
+			Clicked="OnDiscoverStuff"
+			Text   ="Discover Stuff" />
+	</StackLayout>
+</ContentPage>
